@@ -5,7 +5,6 @@
              version="2.2">
 
     <persistence-unit name="Project-Ecommerce">
-        <!--<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/projeto_jpa?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC" />
@@ -18,6 +17,8 @@
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
+
         </properties>
+
     </persistence-unit>
 </persistence>

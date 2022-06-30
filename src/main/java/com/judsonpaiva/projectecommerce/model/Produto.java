@@ -1,8 +1,9 @@
 package com.judsonpaiva.projectecommerce.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
 @Entity
@@ -12,6 +13,16 @@ public class Produto {
     private String nome;
     private String descricao;
     private BigDecimal preco;
+
+
+    public Produto(Integer id, String nome, String descricao, BigDecimal preco) {
+        this.id = id;
+        this.nome = nome;
+        this.descricao = descricao;
+        this.preco = preco;
+    }
+
+    public Produto() {}
 
     public Integer getId() {
         return id;
@@ -51,7 +62,6 @@ public class Produto {
         if (o == null || getClass() != o.getClass()) return false;
 
         Produto produto = (Produto) o;
-
         return id.equals(produto.id);
     }
 
