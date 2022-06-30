@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Inserir objecto com persist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Reover obejctos com remove" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656614925627</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reover obejctos com remove">
+      <created>1656631701540</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656631701540</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +252,7 @@
     <MESSAGE value="Criando calsse generica para testes" />
     <MESSAGE value="Abrir e fechar transacoes com JPA" />
     <MESSAGE value="Inserir objecto com persist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserir objecto com persist" />
+    <MESSAGE value="Reover obejctos com remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reover obejctos com remove" />
   </component>
 </project>
