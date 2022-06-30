@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Criando Persistence">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/util/IniciarUnidadeDePersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/ConsultadoRegistosTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Erros resolvidos e Montando classe para Testes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/EntityManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/ConsultadoRegistosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/ConsultadoRegistosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IniciarUnidadeDePersistence">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConsultadoRegistosTest">
     <configuration name="IniciarUnidadeDePersistence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.projectecommerce.util.IniciarUnidadeDePersistence" />
       <module name="project-ecommerce" />
@@ -71,6 +71,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultadoRegistosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.ConsultadoRegistosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultadoRegistosTest.actualizarReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.ConsultadoRegistosTest" />
+      <option name="METHOD_NAME" value="actualizarReferencia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultadoRegistosTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.ConsultadoRegistosTest" />
+      <option name="METHOD_NAME" value="buscarPorIdentificador" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultadoRegistosTest" />
+        <item itemvalue="JUnit.ConsultadoRegistosTest.actualizarReferencia" />
+        <item itemvalue="JUnit.ConsultadoRegistosTest.buscarPorIdentificador" />
         <item itemvalue="Application.IniciarUnidadeDePersistence" />
       </list>
     </recent_temporary>
@@ -130,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656169511322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Erros resolvidos e Montando classe para Testes">
+      <created>1656611243809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656611243809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mapeando a primeira entidade" />
     <MESSAGE value="Criando Persistence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando Persistence" />
+    <MESSAGE value="Erros resolvidos e Montando classe para Testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erros resolvidos e Montando classe para Testes" />
   </component>
 </project>

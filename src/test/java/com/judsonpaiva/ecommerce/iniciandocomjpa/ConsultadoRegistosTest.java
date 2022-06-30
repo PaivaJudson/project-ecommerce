@@ -1,36 +1,28 @@
 package com.judsonpaiva.ecommerce.iniciandocomjpa;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import com.judsonpaiva.ecommerce.EntityManagerTest;
+import com.judsonpaiva.projectecommerce.model.Produto;
+import org.junit.Assert;
+import org.junit.Test;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+public class ConsultadoRegistosTest extends EntityManagerTest {
 
-public class ConsultadoRegistosTest {
-
-    private static EntityManagerFactory entityManagerFactory;
-    private EntityManager entityManager;
-
-    @BeforeClass
-    public static void setUpBeforeClass(){
-        entityManagerFactory = Persistence.createEntityManagerFactory("Project-Ecommerce");
+    @Test
+    public void buscarPorIdentificador(){
+        //Produto produto = entityManager.find(Produto.class, 1);
+        Produto produto = entityManager.getReference(Produto.class, 1);
+        Assert.assertNotNull(produto);
+        Assert.assertEquals("Kindle", produto.getNome());
     }
 
-    @AfterClass
-    public static void tearDownAfterClass(){
-        entityManagerFactory.close();
+    @Test
+    public void actualizarReferencia(){
+        Produto produto = entityManager.find(Produto.class, 1);
+        produto.setNome("Microfone Samson");
+
+        entityManager.refresh(produto);
+
+        Assert.assertEquals("Kindle", produto.getNome());
     }
 
-    @Before
-    public void setUp(){
-        entityManager = entityManagerFactory.createEntityManager();
-    }
-
-    @After
-    public void tearDown(){
-        entityManager.close();
-    }
 }
