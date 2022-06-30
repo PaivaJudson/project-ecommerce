@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Remover obejctos com remove">
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Actualizar Objecto - Parte I">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" afterDir="false" />
     </list>
@@ -60,22 +60,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransactionsTest.actualizarObjecto">
-    <configuration name="ConsultadoRegistosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.ConsultadoRegistosTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OperacoesComTransactionsTest.insercaoComMerge">
     <configuration name="OperacoesComTransactionsTest.actualizarObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -87,6 +72,22 @@
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
       <option name="METHOD_NAME" value="actualizarObjecto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesComTransactionsTest.insercaoComMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
+      <option name="METHOD_NAME" value="insercaoComMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesComTransactionsTest.insercaoComMerge" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.actualizarObjecto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.removerObjecto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.reoverObjecto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.inserirOPrimeiroObjecto" />
-        <item itemvalue="JUnit.ConsultadoRegistosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656631736213</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Actualizar Objecto - Parte I">
+      <created>1656632602625</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656632602626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +272,7 @@
     <MESSAGE value="Inserir objecto com persist" />
     <MESSAGE value="Reover obejctos com remove" />
     <MESSAGE value="Remover obejctos com remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remover obejctos com remove" />
+    <MESSAGE value="Actualizar Objecto - Parte I" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar Objecto - Parte I" />
   </component>
 </project>
