@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Actualizar Objecto - Parte I">
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Inserir Objecto com o merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" afterDir="false" />
     </list>
@@ -60,7 +60,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransactionsTest.insercaoComMerge">
+  <component name="RunManager" selected="JUnit.OperacoesComTransactionsTest.mostrarDiferencaPersistEMerge">
     <configuration name="OperacoesComTransactionsTest.actualizarObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -93,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacoesComTransactionsTest.inserirOPrimeiroObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperacoesComTransactionsTest.mostrarDiferencaPersistEMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
-      <option name="METHOD_NAME" value="inserirOPrimeiroObjecto" />
+      <option name="METHOD_NAME" value="mostrarDiferencaPersistEMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesComTransactionsTest.mostrarDiferencaPersistEMerge" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.insercaoComMerge" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.actualizarObjecto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.removerObjecto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.reoverObjecto" />
-        <item itemvalue="JUnit.OperacoesComTransactionsTest.inserirOPrimeiroObjecto" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656632602626</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Inserir Objecto com o merge">
+      <created>1656633407426</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656633407426</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +280,7 @@
     <MESSAGE value="Reover obejctos com remove" />
     <MESSAGE value="Remover obejctos com remove" />
     <MESSAGE value="Actualizar Objecto - Parte I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizar Objecto - Parte I" />
+    <MESSAGE value="Inserir Objecto com o merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserir Objecto com o merge" />
   </component>
 </project>

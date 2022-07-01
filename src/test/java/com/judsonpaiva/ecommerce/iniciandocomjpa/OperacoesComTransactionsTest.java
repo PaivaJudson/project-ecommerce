@@ -10,6 +10,32 @@ import java.math.BigDecimal;
 public class OperacoesComTransactionsTest extends EntityManagerTest {
 
     @Test
+    public void mostrarDiferencaPersistEMerge(){
+
+        Produto produtoPersist = new Produto(5, "Smartphone One Plus", "O Processador mais rápido", new BigDecimal(2000));
+
+        entityManager.getTransaction().begin();
+        entityManager.persist(produtoPersist);
+        produtoPersist.setNome("Smartphone Two Plus");
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+
+        Produto produtoMerge = new Produto(6, "Smartphone Samsung US", "O Processador mais rápido", new BigDecimal(2000));
+
+        entityManager.getTransaction().begin();
+        produtoMerge = entityManager.merge(produtoMerge);
+        produtoMerge.setNome("Notebook Dell 2022");
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+        Produto produtoV = entityManager.find(Produto.class, 6);
+        Assert.assertNotNull(produtoV);
+    }
+
+    @Test
     public void insercaoComMerge(){
 
         Produto produto = new Produto(4, "Microfone Rode Videmic", "A melhor qualidade de som", new BigDecimal(5000));
