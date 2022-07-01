@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Diferença entre mapear atributos e métodos">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Mapeamento de objectos embutidos com Embeddable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeamentoObjectoEmbutido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoBoleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapeandoEnumeracoesTest.testarEnum">
+  <component name="RunManager" selected="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido">
     <configuration name="IniciarUnidadeDePersistence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.projectecommerce.util.IniciarUnidadeDePersistence" />
       <module name="project-ecommerce" />
@@ -97,17 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrudClienteTest.removerCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.mapeamentobasico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.CrudClienteTest" />
-      <option name="METHOD_NAME" value="removerCliente" />
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico.MapeamentoObjectoEmbutido" />
+      <option name="METHOD_NAME" value="analisarMapeamentoObjectoEmbutido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" />
         <item itemvalue="JUnit.MapeandoEnumeracoesTest.testarEnum" />
         <item itemvalue="Application.IniciarUnidadeDePersistence" />
         <item itemvalue="JUnit.CrudClienteTest" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.impedirOperacoesComBancoDeDados" />
-        <item itemvalue="JUnit.CrudClienteTest.removerCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656712406544</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Mapeando enumeracoes">
+      <created>1656713380614</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656713380614</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +329,8 @@
     <MESSAGE value="Criando entidades do negócio" />
     <MESSAGE value="customizando nomes de tabelas e colunas" />
     <MESSAGE value="Diferença entre mapear atributos e métodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diferença entre mapear atributos e métodos" />
+    <MESSAGE value="Mapeando enumeracoes" />
+    <MESSAGE value="Mapeamento de objectos embutidos com Embeddable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapeamento de objectos embutidos com Embeddable" />
   </component>
 </project>
