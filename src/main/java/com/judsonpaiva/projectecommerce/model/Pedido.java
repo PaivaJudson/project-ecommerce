@@ -6,25 +6,21 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.security.PrivilegedAction;
+import java.time.LocalDateTime;
 
-@Getter
-@Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Setter
+@Getter
 @Entity
-public class Cliente {
+public class Pedido {
+
     @EqualsAndHashCode.Include
     @Id
     private Integer id;
-    private String nome;
-    private SexoCliente sexo;
-
-    public Cliente(Integer id, String nome) {
-        this.id = id;
-        this.nome = nome;
-    }
-
-    public Cliente() {
-    }
+    private LocalDateTime dataPedido;
+    private LocalDateTime dataConclusao;
+    private Integer notaFiscalId;
+    private StatusPedido status;
+    private Integer total;
 
 }

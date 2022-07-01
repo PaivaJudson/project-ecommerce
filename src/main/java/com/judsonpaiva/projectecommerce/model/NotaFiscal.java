@@ -6,25 +6,19 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.security.PrivilegedAction;
+import java.time.LocalDate;
+import java.util.Date;
 
-@Getter
-@Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Setter
+@Getter
 @Entity
-public class Cliente {
+public class NotaFiscal {
+
     @EqualsAndHashCode.Include
     @Id
     private Integer id;
-    private String nome;
-    private SexoCliente sexo;
-
-    public Cliente(Integer id, String nome) {
-        this.id = id;
-        this.nome = nome;
-    }
-
-    public Cliente() {
-    }
-
+    private Integer pedido;
+    private String xml;
+    private Date dataEmissao;
 }
