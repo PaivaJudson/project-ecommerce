@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Inserir Objecto com o merge">
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Diferenca entre os métodos persit e merge...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/CrudClienteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/OperacoesComTransactionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +62,8 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransactionsTest.mostrarDiferencaPersistEMerge">
-    <configuration name="OperacoesComTransactionsTest.actualizarObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CrudClienteTest.removerCliente">
+    <configuration name="CrudClienteTest.actualizarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
-      <option name="METHOD_NAME" value="actualizarObjecto" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.CrudClienteTest" />
+      <option name="METHOD_NAME" value="actualizarCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperacoesComTransactionsTest.insercaoComMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CrudClienteTest.inserirRegisto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +88,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
-      <option name="METHOD_NAME" value="insercaoComMerge" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.CrudClienteTest" />
+      <option name="METHOD_NAME" value="inserirRegisto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudClienteTest.procurarPorID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.CrudClienteTest" />
+      <option name="METHOD_NAME" value="procurarPorID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudClienteTest.removerCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.CrudClienteTest" />
+      <option name="METHOD_NAME" value="removerCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,38 +138,6 @@
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
       <option name="METHOD_NAME" value="mostrarDiferencaPersistEMerge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperacoesComTransactionsTest.removerObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
-      <option name="METHOD_NAME" value="removerObjecto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperacoesComTransactionsTest.reoverObjecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.iniciandocomjpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.iniciandocomjpa.OperacoesComTransactionsTest" />
-      <option name="METHOD_NAME" value="reoverObjecto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrudClienteTest.removerCliente" />
+        <item itemvalue="JUnit.CrudClienteTest.actualizarCliente" />
+        <item itemvalue="JUnit.CrudClienteTest.procurarPorID" />
+        <item itemvalue="JUnit.CrudClienteTest.inserirRegisto" />
         <item itemvalue="JUnit.OperacoesComTransactionsTest.mostrarDiferencaPersistEMerge" />
-        <item itemvalue="JUnit.OperacoesComTransactionsTest.insercaoComMerge" />
-        <item itemvalue="JUnit.OperacoesComTransactionsTest.actualizarObjecto" />
-        <item itemvalue="JUnit.OperacoesComTransactionsTest.removerObjecto" />
-        <item itemvalue="JUnit.OperacoesComTransactionsTest.reoverObjecto" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656633407426</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Diferenca entre os métodos persit e merge...">
+      <created>1656634425822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656634425822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +290,7 @@
     <MESSAGE value="Remover obejctos com remove" />
     <MESSAGE value="Actualizar Objecto - Parte I" />
     <MESSAGE value="Inserir Objecto com o merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserir Objecto com o merge" />
+    <MESSAGE value="Diferenca entre os métodos persit e merge..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Diferenca entre os métodos persit e merge..." />
   </component>
 </project>
