@@ -14,6 +14,7 @@ import javax.persistence.*;
 public class Cliente {
     @EqualsAndHashCode.Include
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nome;
 
@@ -22,6 +23,11 @@ public class Cliente {
 
     public Cliente(Integer id, String nome, SexoCliente sexo) {
         this.id = id;
+        this.nome = nome;
+        this.sexo = sexo;
+    }
+
+    public Cliente(String nome, SexoCliente sexo) {
         this.nome = nome;
         this.sexo = sexo;
     }

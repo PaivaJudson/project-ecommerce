@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Mapeamento de objectos embutidos com Embeddable">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Estrategia para chave primaria com GeneratedValue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/CrudClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/iniciandocomjpa/CrudClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeamentoObjectoEmbutido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeamentoObjectoEmbutido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +74,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EstrategiaChavePrimariaTest.testarEstrategiaAuto">
+  <component name="RunManager" selected="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido">
     <configuration name="IniciarUnidadeDePersistence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.projectecommerce.util.IniciarUnidadeDePersistence" />
       <module name="project-ecommerce" />
@@ -172,10 +179,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" />
+        <item itemvalue="JUnit.EstrategiaChavePrimariaTest" />
         <item itemvalue="JUnit.EstrategiaChavePrimariaTest.testarEstrategiaAuto" />
         <item itemvalue="JUnit.MapeandoEnumeracoesTest.testarEnum" />
-        <item itemvalue="JUnit.EstrategiaChavePrimariaTest" />
-        <item itemvalue="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" />
         <item itemvalue="Application.IniciarUnidadeDePersistence" />
       </list>
     </recent_temporary>
@@ -308,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656718122752</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Estrategia para chave primaria com GeneratedValue">
+      <created>1656749946555</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656749946555</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +354,8 @@
     <MESSAGE value="Diferença entre mapear atributos e métodos" />
     <MESSAGE value="Mapeando enumeracoes" />
     <MESSAGE value="Mapeamento de objectos embutidos com Embeddable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapeamento de objectos embutidos com Embeddable" />
+    <MESSAGE value="Estrategia para chave primaria com GeneratedValue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estrategia para chave primaria com GeneratedValue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
