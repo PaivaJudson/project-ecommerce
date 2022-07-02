@@ -10,7 +10,7 @@ public class MapeandoEnumeracoesTest extends EntityManagerTest {
 
     @Test
     public void testarEnum(){
-        Cliente cliente = new Cliente(4, "Delvino José");
+        Cliente cliente = new Cliente(4, "Delvino José", SexoCliente.MASCULINO);
         cliente.setSexo(SexoCliente.MASCULINO);
         entityManager.getTransaction().begin();
         entityManager.persist(cliente);

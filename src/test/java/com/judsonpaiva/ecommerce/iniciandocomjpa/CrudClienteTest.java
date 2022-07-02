@@ -2,6 +2,7 @@ package com.judsonpaiva.ecommerce.iniciandocomjpa;
 
 import com.judsonpaiva.ecommerce.EntityManagerTest;
 import com.judsonpaiva.projectecommerce.model.Cliente;
+import com.judsonpaiva.projectecommerce.model.SexoCliente;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ public class CrudClienteTest extends EntityManagerTest {
     @Test
     public void inserirRegisto(){
 
-        Cliente cliente = new Cliente(3, "Jéssica Paiva");
+        Cliente cliente = new Cliente(3, "Jéssica Paiva", SexoCliente.FEMENINO);
 
         entityManager.getTransaction().begin();
         entityManager.persist(cliente);

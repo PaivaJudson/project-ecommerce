@@ -20,9 +20,10 @@ public class Cliente {
     @Enumerated(EnumType.STRING)
     private SexoCliente sexo;
 
-    public Cliente(Integer id, String nome) {
+    public Cliente(Integer id, String nome, SexoCliente sexo) {
         this.id = id;
         this.nome = nome;
+        this.sexo = sexo;
     }
 
     public Cliente() {
