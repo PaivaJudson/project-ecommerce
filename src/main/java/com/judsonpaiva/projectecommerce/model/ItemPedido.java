@@ -23,18 +23,20 @@ public class ItemPedido {
    // @Column(name = "pedido_id")
     //private Integer pedidoId;
     @ManyToOne
+    @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 
-    @Column(name = "produto_id")
-    private Integer produtoId;
+    @ManyToOne
+    @JoinColumn(name = "produto_id")
+    private Produto produto;
 
     @Column(name = "preco_produto")
     private BigDecimal precoProduto;
     private Integer quantidade;
 
-    public ItemPedido(Pedido pedido, Integer produtoId, BigDecimal precoProduto, Integer quantidade) {
+    public ItemPedido(Pedido pedido, Produto produto, BigDecimal precoProduto, Integer quantidade) {
         this.pedido = pedido;
-        this.produtoId = produtoId;
+        this.produto = produto;
         this.precoProduto = precoProduto;
         this.quantidade = quantidade;
     }

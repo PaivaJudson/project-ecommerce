@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Setter
@@ -21,10 +22,14 @@ public class Categoria {
 
     private String nome;
 
-    @Column(name = "categoria_pai_id")
-    private Integer categoriaPaiID;
+    @ManyToOne
+    @JoinColumn(name = "categoria_pai_id")
+    private Categoria categoriaPaiID;
 
-    public Categoria(String nome, Integer categoriaPaiID) {
+    @OneToMany(mappedBy = "categoriaPaiID")
+    private List<Categoria> categorias;
+
+    public Categoria(String nome, Categoria categoriaPaiID) {
         this.nome = nome;
         this.categoriaPaiID = categoriaPaiID;
     }
