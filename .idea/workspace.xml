@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Mapeando relacionamento muitos para um (ManyToOne) - Parte II">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/AutoRelacionamentoTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Removendo objectos referenciados...">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RemovendoEntidadesReferenciadasTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/AutoRelacionamentoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/AutoRelacionamentoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutoRelacionamentoTest.relacionamentoCategoriaToCategoria">
+  <component name="RunManager" selected="JUnit.RemovendoEntidadesReferenciadasTest.removerEntidadesReferenciadas">
     <configuration name="IniciarUnidadeDePersistence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.projectecommerce.util.IniciarUnidadeDePersistence" />
       <module name="project-ecommerce" />
@@ -92,22 +91,6 @@
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.AutoRelacionamentoTest" />
       <option name="METHOD_NAME" value="relacionamentoCategoriaToCategoria" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.mapeamentobasico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico.MapeamentoObjectoEmbutido" />
-      <option name="METHOD_NAME" value="analisarMapeamentoObjectoEmbutido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,6 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemovendoEntidadesReferenciadasTest.removerEntidadesReferenciadas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RemovendoEntidadesReferenciadasTest" />
+      <option name="METHOD_NAME" value="removerEntidadesReferenciadas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="project-ecommerce[clean package]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest.removerEntidadesReferenciadas" />
         <item itemvalue="JUnit.AutoRelacionamentoTest.relacionamentoCategoriaToCategoria" />
         <item itemvalue="Application.IniciarUnidadeDePersistence" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedidoToPedidoe" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656842652757</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Mapeando relacionamento muitos para um (ManyToOne) - Auto relacionamentos">
+      <created>1656854310722</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656854310722</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,7 +379,9 @@
     <MESSAGE value="Estrategia para chave primaria com IDENTITY" />
     <MESSAGE value="Mapeando relacionamento muitos para um (ManyToOne)" />
     <MESSAGE value="Mapeando relacionamento muitos para um (ManyToOne) - Parte II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapeando relacionamento muitos para um (ManyToOne) - Parte II" />
+    <MESSAGE value="Mapeando relacionamento muitos para um (ManyToOne) - Auto relacionamentos" />
+    <MESSAGE value="Removendo objectos referenciados..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removendo objectos referenciados..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
