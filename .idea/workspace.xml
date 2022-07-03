@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Estrategia para chave primaria com IDENTITY">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Mapeando relacionamento muitos para um (ManyToOne)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento">
+  <component name="RunManager" selected="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedidoToPedidoe">
     <configuration name="EstrategiaChavePrimariaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -112,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapeandoEnumeracoesTest.testarEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.mapeamentobasico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.mapeamentobasico.MapeandoEnumeracoesTest" />
-      <option name="METHOD_NAME" value="testarEnum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RelacionamentoManyToOneTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -139,6 +125,22 @@
       <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
       <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoManyToOneTest" />
       <option name="METHOD_NAME" value="verificarRelacionamento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelacionamentoManyToOneTest.verificarRelacionamentoItemPedidoToPedidoe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoManyToOneTest" />
+      <option name="METHOD_NAME" value="verificarRelacionamentoItemPedidoToPedidoe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedidoToPedidoe" />
         <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamento" />
         <item itemvalue="JUnit.MapeamentoObjectoEmbutido.analisarMapeamentoObjectoEmbutido" />
         <item itemvalue="JUnit.EstrategiaChavePrimariaTest" />
         <item itemvalue="JUnit.EstrategiaChavePrimariaTest.testarEstrategiaAuto" />
-        <item itemvalue="JUnit.MapeandoEnumeracoesTest.testarEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656751935796</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Mapeando relacionamento muitos para um (ManyToOne)">
+      <created>1656840446965</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656840446965</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +365,8 @@
     <MESSAGE value="Mapeamento de objectos embutidos com Embeddable" />
     <MESSAGE value="Estrategia para chave primaria com GeneratedValue" />
     <MESSAGE value="Estrategia para chave primaria com IDENTITY" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estrategia para chave primaria com IDENTITY" />
+    <MESSAGE value="Mapeando relacionamento muitos para um (ManyToOne)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapeando relacionamento muitos para um (ManyToOne)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

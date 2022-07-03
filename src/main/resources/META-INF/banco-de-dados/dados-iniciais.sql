@@ -3,3 +3,4 @@ insert into produto (id, nome, preco, descricao) values (3, 'Câmera GoPro', 140
 
 insert into cliente(id, nome) values (1, 'Judson Paiva');
 insert into cliente(id, nome) values (2, 'Leonor José');
+

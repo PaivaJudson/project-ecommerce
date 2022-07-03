@@ -23,6 +23,7 @@ public class Pedido {
     //@Column(name = "cliente_id")
     //private Integer clienteID;
     @ManyToOne
+    @JoinColumn(name ="cliente_id")
     private Cliente cliente;
 
     @Column(name = "data_pedido")

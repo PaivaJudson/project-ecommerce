@@ -20,8 +20,10 @@ public class ItemPedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "pedido_id")
-    private Integer pedidoId;
+   // @Column(name = "pedido_id")
+    //private Integer pedidoId;
+    @ManyToOne
+    private Pedido pedido;
 
     @Column(name = "produto_id")
     private Integer produtoId;
@@ -30,4 +32,13 @@ public class ItemPedido {
     private BigDecimal precoProduto;
     private Integer quantidade;
 
+    public ItemPedido(Pedido pedido, Integer produtoId, BigDecimal precoProduto, Integer quantidade) {
+        this.pedido = pedido;
+        this.produtoId = produtoId;
+        this.precoProduto = precoProduto;
+        this.quantidade = quantidade;
+    }
+
+    public ItemPedido() {
+    }
 }
