@@ -30,7 +30,7 @@ public class RelacionamentoOneToOneTest extends EntityManagerTest {
     }
 
     @Test
-    public void relacionarManyToManyPedidoToNotaFiscal() {
+    public void relacionarOneToOnePedidoToNotaFiscal() {
 
         Pedido pedido = entityManager.find(Pedido.class, 1);
 
