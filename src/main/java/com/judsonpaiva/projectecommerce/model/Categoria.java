@@ -29,6 +29,9 @@ public class Categoria {
     @OneToMany(mappedBy = "categoriaPaiID")
     private List<Categoria> categorias;
 
+    @ManyToMany(mappedBy = "categorias")
+    private List<Produto> produtos;
+
     public Categoria(String nome, Categoria categoriaPaiID) {
         this.nome = nome;
         this.categoriaPaiID = categoriaPaiID;

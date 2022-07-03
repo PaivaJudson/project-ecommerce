@@ -47,6 +47,9 @@ public class Pedido {
     @Embedded
     private EnderecoEntregaPedido enderecoEntrega;
 
+    @OneToOne(mappedBy = "pedido")
+    private PagamentoCartao pagamentoCartao;
+
     public Pedido(Cliente cliente, LocalDateTime dataPedido, LocalDateTime dataConclusao, Integer notaFiscalId, StatusPedido status, BigDecimal total, EnderecoEntregaPedido enderecoEntrega) {
         this.cliente = cliente;
         this.dataPedido = dataPedido;
