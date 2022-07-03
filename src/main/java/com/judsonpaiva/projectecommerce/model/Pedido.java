@@ -20,6 +20,11 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    //@Column(name = "cliente_id")
+    //private Integer clienteID;
+    @ManyToOne
+    private Cliente cliente;
+
     @Column(name = "data_pedido")
     private LocalDateTime dataPedido;
 
@@ -37,6 +42,16 @@ public class Pedido {
     @Embedded
     private EnderecoEntregaPedido enderecoEntrega;
 
+    public Pedido(Cliente cliente, LocalDateTime dataPedido, LocalDateTime dataConclusao, Integer notaFiscalId, StatusPedido status, BigDecimal total, EnderecoEntregaPedido enderecoEntrega) {
+        this.cliente = cliente;
+        this.dataPedido = dataPedido;
+        this.dataConclusao = dataConclusao;
+        this.notaFiscalId = notaFiscalId;
+        this.status = status;
+        this.total = total;
+        this.enderecoEntrega = enderecoEntrega;
+    }
 
-
+    public Pedido() {
+    }
 }
