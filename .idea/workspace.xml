@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Relacionamento OneToOne...">
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Relacionamento OneToOne... com @JoinTable">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/EagerELazyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.customizations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.judsonpaiva.ecommerce.relacionamentos" />
@@ -359,8 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656860728382</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Relacionamento OneToOne... com @JoinTable">
+      <created>1656861740819</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656861740819</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -398,7 +410,8 @@
     <MESSAGE value="Mapeando relacionamento muitos para um (ManyToOne) - Auto relacionamentos" />
     <MESSAGE value="Removendo objectos referenciados..." />
     <MESSAGE value="Relacionamento OneToOne..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Relacionamento OneToOne..." />
+    <MESSAGE value="Relacionamento OneToOne... com @JoinTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relacionamento OneToOne... com @JoinTable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
