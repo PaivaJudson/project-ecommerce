@@ -22,11 +22,11 @@ public class ItemPedido {
 
    // @Column(name = "pedido_id")
     //private Integer pedidoId;
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "produto_id")
     private Produto produto;
 

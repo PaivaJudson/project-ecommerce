@@ -8,6 +8,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Setter
@@ -23,7 +24,7 @@ public class Pedido {
 
     //@Column(name = "cliente_id")
     //private Integer clienteID;
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name ="cliente_id")
     private Cliente cliente;
 
@@ -41,7 +42,7 @@ public class Pedido {
 
     private BigDecimal total;
 
-    @OneToMany(mappedBy = "pedido")
+    @OneToMany(mappedBy = "pedido", fetch = FetchType.EAGER)
     private List<ItemPedido> itens;
 
     @Embedded

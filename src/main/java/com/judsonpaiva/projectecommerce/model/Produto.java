@@ -31,6 +31,8 @@ public class Produto {
                inverseJoinColumns = @JoinColumn(name = "categoria_id"))
     private List<Categoria> categorias;
 
+    @OneToOne(mappedBy = "produto")
+    private Estoque estoque;
 
     public Produto(Integer id, String nome, String descricao, BigDecimal preco) {
         this.id = id;

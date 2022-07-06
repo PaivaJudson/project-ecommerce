@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Relacionamento OneToOne... com @JoinTable">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/EagerELazyTest.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Eager e Lazy no JPA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/EagerELazyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/relacionamentos/EagerELazyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +55,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.judsonpaiva.ecommerce.relacionamentos" />
@@ -64,7 +69,23 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RelacionamentoOneToOneTest.relacionarOneToOnePedidoToNotaFiscal">
+  <component name="RunManager" selected="JUnit.EagerELazyTest.comportamentoPedido">
+    <configuration name="EagerELazyTest.comportamentoPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.EagerELazyTest" />
+      <option name="METHOD_NAME" value="comportamentoPedido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RelacionamentoManyToMayTest.relacionarManyToManyProdutosToCategorias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -129,22 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovendoEntidadesReferenciadasTest.removerEntidadesReferenciadas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RemovendoEntidadesReferenciadasTest" />
-      <option name="METHOD_NAME" value="removerEntidadesReferenciadas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="project-ecommerce[clean package]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -173,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EagerELazyTest.comportamentoPedido" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarOneToOnePedidoToNotaFiscal" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarManyToManyPedidoToNotaFiscal" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarManyToManyProdutosToCategorias" />
         <item itemvalue="JUnit.RelacionamentoManyToMayTest.relacionarManyToManyProdutosToCategorias" />
-        <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest.removerEntidadesReferenciadas" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656861740819</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Eager e Lazy no JPA">
+      <created>1657061869436</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657061869437</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -386,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mapeando a primeira entidade" />
     <MESSAGE value="Criando Persistence" />
     <MESSAGE value="Erros resolvidos e Montando classe para Testes" />
     <MESSAGE value="Criando calsse generica para testes" />
@@ -411,7 +422,8 @@
     <MESSAGE value="Removendo objectos referenciados..." />
     <MESSAGE value="Relacionamento OneToOne..." />
     <MESSAGE value="Relacionamento OneToOne... com @JoinTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relacionamento OneToOne... com @JoinTable" />
+    <MESSAGE value="Eager e Lazy no JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eager e Lazy no JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
