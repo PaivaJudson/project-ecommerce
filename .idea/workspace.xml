@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Eager e Lazy no JPA - Atributo optional">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/entitymanager/EstadoECicloDeVidaTes.java" afterDir="false" />
+    <list default="true" id="acf7f2a6-a63f-44d8-93d6-d4405dff858e" name="Changes" comment="Entendendo o EntityManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judsonpaiva/projectecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/entitymanager/EstadoECicloDeVidaTes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/ecommerce/entitymanager/EstadoECicloDeVidaTes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="com.judsonpaiva.ecommerce.iniciandocomjpa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EagerELazyTest.comportamentoPedido">
+  <component name="RunManager" selected="JUnit.EstadoECicloDeVidaTes.chamarFlush">
     <configuration name="EagerELazyTest.comportamentoPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
@@ -80,65 +81,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoManyToMayTest.relacionarManyToManyProdutosToCategorias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EstadoECicloDeVidaTes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.entitymanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoManyToMayTest" />
-      <option name="METHOD_NAME" value="relacionarManyToManyProdutosToCategorias" />
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.entitymanager" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.entitymanager.EstadoECicloDeVidaTes" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstadoECicloDeVidaTes.chamarFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.entitymanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.entitymanager" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.entitymanager.EstadoECicloDeVidaTes" />
+      <option name="METHOD_NAME" value="chamarFlush" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToOneTest.relacionarManyToManyPedidoToNotaFiscal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EstadoECicloDeVidaTes.gereciamentodeTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.entitymanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="relacionarManyToManyPedidoToNotaFiscal" />
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.entitymanager" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.entitymanager.EstadoECicloDeVidaTes" />
+      <option name="METHOD_NAME" value="gereciamentodeTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToOneTest.relacionarManyToManyProdutosToCategorias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EstadoECicloDeVidaTes.verificarCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.judsonpaiva.ecommerce.entitymanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="relacionarManyToManyProdutosToCategorias" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelacionamentoOneToOneTest.relacionarOneToOnePedidoToNotaFiscal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.judsonpaiva.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="relacionarOneToOnePedidoToNotaFiscal" />
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.ecommerce.entitymanager" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.ecommerce.entitymanager.EstadoECicloDeVidaTes" />
+      <option name="METHOD_NAME" value="verificarCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EstadoECicloDeVidaTes.chamarFlush" />
+        <item itemvalue="JUnit.EstadoECicloDeVidaTes.gereciamentodeTransaction" />
+        <item itemvalue="JUnit.EstadoECicloDeVidaTes.verificarCache" />
+        <item itemvalue="JUnit.EstadoECicloDeVidaTes" />
         <item itemvalue="JUnit.EagerELazyTest.comportamentoPedido" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarOneToOnePedidoToNotaFiscal" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarManyToManyPedidoToNotaFiscal" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.relacionarManyToManyProdutosToCategorias" />
-        <item itemvalue="JUnit.RelacionamentoManyToMayTest.relacionarManyToManyProdutosToCategorias" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657065634059</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Entendendo o EntityManager">
+      <created>1657367062217</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1657367062217</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -399,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Erros resolvidos e Montando classe para Testes" />
     <MESSAGE value="Criando calsse generica para testes" />
     <MESSAGE value="Abrir e fechar transacoes com JPA" />
     <MESSAGE value="Inserir objecto com persist" />
@@ -424,7 +430,8 @@
     <MESSAGE value="Relacionamento OneToOne... com @JoinTable" />
     <MESSAGE value="Eager e Lazy no JPA" />
     <MESSAGE value="Eager e Lazy no JPA - Atributo optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eager e Lazy no JPA - Atributo optional" />
+    <MESSAGE value="Entendendo o EntityManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entendendo o EntityManager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

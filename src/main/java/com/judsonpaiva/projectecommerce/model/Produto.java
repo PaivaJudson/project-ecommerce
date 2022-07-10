@@ -1,7 +1,7 @@
 package com.judsonpaiva.projectecommerce.model;
 
 
-
+import com.judsonpaiva.projectecommerce.model.Estoque;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -31,7 +31,7 @@ public class Produto {
                inverseJoinColumns = @JoinColumn(name = "categoria_id"))
     private List<Categoria> categorias;
 
-    @OneToOne(mappedBy = "produto")
+    @OneToOne(mappedBy = "produtoId")
     private Estoque estoque;
 
     public Produto(Integer id, String nome, String descricao, BigDecimal preco) {
